@@ -1,0 +1,63 @@
+:root {
+	--main-bg-color: #131319;
+	--main-font-color: #fff;
+	--main-accent-color-1: #cc2936;
+	--main-accent-color-2: #656839;
+	--main-accent-color-3: #678d58;
+}
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #131319;
+	box-sizing: border-box;
+	font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+@media (max-width: 1000px) {
+	body {
+		max-width: 100%;
+	}
+}
+
+a {
+	color: var(--main-accent-color-1);
+	text-decoration: none;
+}
+
+a:visited {
+	color: var(--main-accent-color-1);
+}
+
+.dockerSvg {
+
+} 
+.skillsSvg {
+	height: 100%;
+	width: 100%;
+	fill: var(--main-bg-color);
+	stroke: var(--main-bg-color);
+}
+.skillsSvg path{
+	fill: var(--main-bg-color);
+	stroke: var(--main-bg-color);
+
+}
+p {
+	letter-spacing: 1px;
+}
+
+.colorized {
+	color: var(--main-accent-color-1);
+}
