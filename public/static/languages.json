@@ -8,6 +8,10 @@
             "title": "Hi! I'm <bold class=\"colorized\" >Valentin</bold>",
             "subTitle": "A Junior Freelance Developer"
         },
+        "contact" : {
+            "sectionTitle": "CONTACT",
+            "text": "You want to <span class=\"colorized bolded\" >know</span> more about me ? </br>Or even <span class=\"colorized bolded\" >hire me ?</span>"
+        },
         "whatCanIDo": {
             "title": "I can help you for",
             "subSection": [
@@ -37,6 +41,10 @@
             "title": "Hé! Je suis <bold class=\"colorized\" >Valentin</bold>",
             "subTitle": "Développeur Freelance Junior"
         },
+        "contact" : {
+            "sectionTitle": "CONTACT",
+            "text": "Vous voulez <span class=\"colorized bolded\" >en savoir plus</span> sur moi ?</br>Ou même <span class=\"colorized bolded\" >m'embaucher ?</span>"
+        },
         "whatCanIDo": {
             "title": "Je peux vous aider pour",
             "subSection": [
@@ -53,7 +61,7 @@
             ]
         },
         "footer": {
-            "mainText": "Developé par <a href=\"https://github.com/BoutValentin\" rel=\"external nofollow\" target=\"_blank\" ><bold>@BoutValentin</bold></a> avec <a href=\"https://svelte.dev\" rel=\"external nofollow\" target=\"_blank\" >Svelte</a>",
+            "mainText": "Developpé par <a href=\"https://github.com/BoutValentin\" rel=\"external nofollow\" target=\"_blank\" ><bold>@BoutValentin</bold></a> avec <a href=\"https://svelte.dev\" rel=\"external nofollow\" target=\"_blank\" >Svelte</a>",
             "licence": "Sous"
         }
     }

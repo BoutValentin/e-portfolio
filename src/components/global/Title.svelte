@@ -20,7 +20,7 @@
 
 <style>
     h1 {
-        font-size: 35px;
+        font-size: min(35px, 7vmin);
         font-weight: 600;
     }
 </style>

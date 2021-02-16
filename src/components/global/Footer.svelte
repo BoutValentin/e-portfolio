@@ -100,6 +100,7 @@ import { firstLetterUppercase } from "../../utils/uppercase";
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            text-align: center;
         }
         .row1 > p, .row1 > div{
             margin: 15px 5px 5px 5px;

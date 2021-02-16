@@ -1,11 +1,12 @@
 <script>
 import ContactButton from "../contact/ContactButton.svelte";
 import { DataLanguages } from "../stores/languages";
+import Me from "./Me.svelte";
 
 </script>
 
-<section>
-    <img src="/images/Me.svg" alt="Me" />
+<section id="home">
+    <Me />
     <div class="container">
         <p class="mainTitle">{@html $DataLanguages['home']['title']}</p>
         <p class="subTitle">{$DataLanguages['home']['subTitle']}</p>
@@ -17,15 +18,10 @@ import { DataLanguages } from "../stores/languages";
 <style>
     section {
         min-height: 100vh;
+        height: auto;
         display: flex;
         flex-direction: row;
         align-items: center;
-
-    }
-    img {
-        filter: invert(100%);
-        max-width: 537px;
-        height: 100%;
     }
     
     .container {
@@ -54,12 +50,6 @@ import { DataLanguages } from "../stores/languages";
             display: flex;
             flex-direction: column-reverse;
             align-items: center;
-        }
-        img {
-        filter: invert(100%);
-        max-width: 400px;
-        width: 100%;
-        height: auto;
         }
         .container {
             max-width: 100%;

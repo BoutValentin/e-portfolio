@@ -8,11 +8,13 @@ import RoundSkills from "./components/global/RoundSkills.svelte";
 import { docker } from "./svg";
 import ShowSection from "./components/global/ShowSection.svelte";
 import Home from "./Home/Home.svelte";
+import Contact from "./contact/Contact.svelte";
 
 </script>
 
 <main>
 	<Home />
+	<Contact />
 	<Footer />
 </main>
 
