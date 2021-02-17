@@ -1,5 +1,5 @@
 <script>
-import { DataLanguages } from "../stores/languages";
+import { DataLanguages } from "../../stores/languages";
 
 
 

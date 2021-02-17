@@ -1,6 +1,6 @@
 <script>
-import ContactButton from "../contact/ContactButton.svelte";
-import { DataLanguages } from "../stores/languages";
+import ContactButton from "../../components/contact/ContactButton.svelte";
+import { DataLanguages } from "../../stores/languages";
 import Me from "./Me.svelte";
 
 </script>
@@ -17,6 +17,7 @@ import Me from "./Me.svelte";
 
 <style>
     section {
+        margin-top: 0px;
         min-height: 100vh;
         height: auto;
         display: flex;

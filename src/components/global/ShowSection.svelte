@@ -1,22 +1,24 @@
 <script>
 
     export let components;
+    export let title;
+    export let classe;
 </script>
 
-<div class="showSection" >
+<div class={`showSection ${classe}`} >
     <div class="header">
         <div class="round">
 
         </div>
         <p class="title">
-            Prototyping
+            {title}
         </p>
     </div>
     <div class="body">
         <div class="barContainer">
             <div class="bar"></div>
         </div>
-        <svelte:component this={components?.Components} {...components?.props} />
+        <svelte:component this={components?.Component} {...components?.props} />
     </div>
 </div>
 
@@ -32,6 +34,9 @@
     .title {
         font-size: 25px;
         margin-left: 15px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 3px;
     }
     .round {
         height: 20px;
@@ -49,11 +54,11 @@
         height: auto;
     }
     .barContainer {
-        height: 100%;
-        width: 28px;
-        margin: auto 10px;
+        width: 20px;
+        margin: 0 10px;
         display: flex;
         flex-direction: column;
+        align-self: stretch;
     }
     .bar {
         height: 100%;
@@ -62,5 +67,6 @@
         border-radius: 35px;
         background-color: #fff;
         margin: 0 auto;
+        align-self: stretch;
     }
 </style>

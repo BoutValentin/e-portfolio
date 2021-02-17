@@ -1,9 +1,9 @@
 <script>
-import SectionTitle from "../components/global/SectionTitle.svelte";
-import { DataLanguages } from "../stores/languages";
+import SectionTitle from "../global/SectionTitle.svelte";
+import { DataLanguages } from "../../stores/languages";
 import ContactButton from "./ContactButton.svelte";
-import {rs} from '../constants'
-import RoundSkills from "../components/global/RoundSkills.svelte";
+import {rs} from '../../constants'
+import RoundSkills from "../global/RoundSkills.svelte";
 
 </script>
 

@@ -12,20 +12,19 @@
             "sectionTitle": "CONTACT",
             "text": "You want to <span class=\"colorized bolded\" >know</span> more about me ? </br>Or even <span class=\"colorized bolded\" >hire me ?</span>"
         },
-        "whatCanIDo": {
+        "helpYouFor": {
             "title": "I can help you for",
-            "subSection": [
+            "prototype":
                 {
                     "title": "Prototyping", 
                     "images": "/images/prototyping.svg",
-                    "description": "My basic knowledge of UX and UI may can be useful for your projects. Prototyping applications is one of the most decisive decision to launch your projects. I can help you, by making prototype or little audit of your current prototyping to improve the design of your applications and at the end, improving your user interactions."
+                    "description": "My basic knowledge of <span class=\"colorized bolded\" >UX</span> and <span class=\"colorized bolded\" >UI</span> may can be useful for your projects. </br></br><span class=\"colorized bolded\" >Prototyping applications</span> is one of the most decisive decision to launch your projects. I can help you, by making prototype or little audit of your current prototyping to improve the <span class=\"colorized bolded\" >design</span> of your applications and at the end, improving your <span class=\"colorized bolded\" >user interactions.</span>"
                 },
-                {
+               "develops": {
                     "title": "Development",
                     "images": "/images/development.svg",
-                    "description": "Once the prototyping has been done, the time of development has come. I try to use the most recent framework or libraries attached to javascript (in the front end part), and mostly use Ruby on Rails to build your backend. I use the scrum methods to build your projects to give you fast feedback along the development process. Since I'm not a professional scrum-master, I also make the management of the project with a freelance friend, afin de vous s'assurer le meilleur suivit possible."
+                    "description": "Once the prototyping has been done, the time of <span class=\"colorized bolded\" >development</span> has come.</br></br> I try to use the most recent framework or libraries attached to <span class=\"colorized bolded\" >javascript</span> (in the front end part), and mostly use <span class=\"colorized bolded\" >Ruby on Rails</span> to build your backend.</br></br> I use the <span class=\"colorized bolded\" >scrum methods</span> to build your projects to give you fast feedback all along the development process. Since I'm not a professional scrum-master, I also make the management of the project with a freelance friend, in order to ensure the best possible <span class=\"colorized bolded\" >follow-up.</span>"
                 }
-            ]
         },
         "footer": {
             "mainText": "Made by <a href=\"https://github.com/BoutValentin\"  rel=\"external nofollow\" target=\"_blank\" ><bold>@BoutValentin</bold></a> with <a href=\"https://svelte.dev\" rel=\"external nofollow\" target=\"_blank\" >Svelte</a>",
@@ -45,20 +44,19 @@
             "sectionTitle": "CONTACT",
             "text": "Vous voulez <span class=\"colorized bolded\" >en savoir plus</span> sur moi ?</br>Ou même <span class=\"colorized bolded\" >m'embaucher ?</span>"
         },
-        "whatCanIDo": {
+        "helpYouFor": {
             "title": "Je peux vous aider pour",
-            "subSection": [
+            "prototype": 
                 {
                     "title": "Prototypé", 
                     "images": "/images/prototyping.svg",
-                    "description": "Mes connaissances de base en UX et UI peuvent être utiles pour vos projets. Le prototypage d'applications est l'une des décisions les plus décisives pour lancer vos projets. Je peux vous aider, en réalisant un prototype ou un petit audit de votre design actuel pour améliorer la conception de vos applications et au final, améliorer vos interactions utilisateurs."
+                    "description": "Mes connaissances de base en <span class=\"colorized bolded\" >UX</span> et <span class=\"colorized bolded\" >UI</span> peuvent être utiles pour vos projets. </br></br> <span class=\"colorized bolded\" >Le prototypage d'applications</span> est l'une des décisions les plus décisives pour lancer vos projets. Je peux vous aider, en réalisant un prototype ou un petit audit de votre <span class=\"colorized bolded\" >design</span> actuel pour améliorer la conception de vos applications et au final, améliorer vos <span class=\"colorized bolded\" >interactions utilisateurs.</span>"
                 },
-                {
+            "develops": {
                     "title": "Developé",
                     "images": "/images/development.svg",
-                    "description": "Une fois le prototypage effectué, le moment du développement est venu. J'essaie d'utiliser le framework ou les bibliothèques les plus récentes attachées à javascript (dans la partie frontale), et j'utilise principalement Ruby on Rails pour construire votre backend. J'utilise les méthodes Scrum pour construire vos projets afin de vous donner un retour rapide tout au long du processus de développement. Comme je ne suis pas un scrum-master professionnel, je fais aussi la gestion du projet avec un ami freelance, afin de vous assurer le meilleur suivit possible."
+                    "description": "Une fois le prototypage effectué, le moment du <span class=\"colorized bolded\" >développement</span> est venu. </br></br>J'essaie d'utiliser le framework ou les bibliothèques les plus récentes attachées à <span class=\"colorized bolded\" >javascript</span> (dans la partie front), et j'utilise principalement <span class=\"colorized bolded\" >Ruby on Rails</span> pour construire votre backend. </br></br>J'utilise les <span class=\"colorized bolded\" >méthodes Scrum</span> pour construire vos projets afin de vous donner un retour rapide tout au long du processus de développement. Comme je ne suis pas un scrum-master professionnel, je fais aussi la gestion du projet avec un ami freelance, afin de vous assurer le meilleur <span class=\"colorized bolded\" >suivi</span> possible."
                 }
-            ]
         },
         "footer": {
             "mainText": "Developpé par <a href=\"https://github.com/BoutValentin\" rel=\"external nofollow\" target=\"_blank\" ><bold>@BoutValentin</bold></a> avec <a href=\"https://svelte.dev\" rel=\"external nofollow\" target=\"_blank\" >Svelte</a>",

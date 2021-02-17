@@ -18,10 +18,14 @@
         align-items: center;
         justify-content: center;
         width: 100%;
+        max-width: 100%;
     }
 
     :global(.section_title  h1) {
-        margin: auto 30px;
+        margin: auto min(30px, 5vmin);
+        display: inline;
+        max-width: 50%;
         flex-shrink: 0;
+        text-align: center;
     }
 </style>
