@@ -30,8 +30,13 @@
 	<link rel="icon" href="/favicon.png" type="image/png">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel='stylesheet' href='/global.css'>
-	<link rel='stylesheet' href='/build/bundle.css'>
-	<script defer src='/build/bundle.js'></script>
+	<link rel='stylesheet' href='/build/module/bundle.css'>
+	<link rel='stylesheet' href='/build/nomodule/bundle.css'>
+	<script defer type="module" src="/build/module/main.js"></script>
+	<script nomodule src='https://unpkg.com/systemjs@0.21.0/dist/system-production.js'></script>
+	<script nomodule>
+		System.import('/build/module/main.js');
+	</script>
 </head>
 
 <body>

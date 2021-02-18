@@ -38,6 +38,7 @@ M1548.253440 387.024176 C1548.455449 389.649031 1546.474515 392.048817 1544.0955
     svg {
         height: 100%;
         max-width: 30%;
+        width: 100%;
         stroke: var(--main-font-color);
     }
     svg, path {

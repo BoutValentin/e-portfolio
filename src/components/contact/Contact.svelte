@@ -34,6 +34,7 @@ import RoundSkills from "../global/RoundSkills.svelte";
         margin-bottom: 70px;
         font-size: max(5vmin, 22px);
         text-align: center;
+        padding: 10px;
     }
     .containerContact {
         display: flex;

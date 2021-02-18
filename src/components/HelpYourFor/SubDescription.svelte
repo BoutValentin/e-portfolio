@@ -1,6 +1,4 @@
 <script>
-import App from "../../App.svelte";
-
     export let svgComponents;
     export let paragraphe;
 </script>

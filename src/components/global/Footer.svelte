@@ -38,7 +38,7 @@ import { firstLetterUppercase } from "../../utils/uppercase";
         flex-wrap: wrap;
     }
     .row1 {
-        margin-top: 10px;
+        margin-top: 15px;
         margin-bottom: 10px;
         display: flex;
         flex-direction: row;
@@ -75,7 +75,7 @@ import { firstLetterUppercase } from "../../utils/uppercase";
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 0px 0px 10px;
+        margin: 5px 0px 15px;
     }
     .licence a {
         color: var(--main-accent-color-3);

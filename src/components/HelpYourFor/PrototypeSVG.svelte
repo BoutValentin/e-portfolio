@@ -40,6 +40,7 @@ M796.363836 912.501894 C796.515910 915.848742 794.001386 918.856084 790.990114 9
     svg {
         height: 100%;
         max-width: 30%;
+        width: 80%;
         stroke: var(--main-font-color);
         max-height: 370px;
     }

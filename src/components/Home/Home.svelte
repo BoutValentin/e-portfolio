@@ -51,11 +51,13 @@ import Me from "./Me.svelte";
             display: flex;
             flex-direction: column-reverse;
             align-items: center;
+            justify-content: stretch;
         }
         .container {
             max-width: 100%;
             height: auto;
-        }
+/*             margin-top: 15px;
+ */        }
         .mainTitle{
             margin-bottom: 5px;
             margin-top: 5px;

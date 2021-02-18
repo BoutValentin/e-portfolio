@@ -80,3 +80,10 @@ section {
 .i-can-h-space {
 	margin: 35px auto;
 }
+
+.jsSvg , .svelteSvg {
+	fill: var(--main-bg-color);
+}
+.jsSvg path:nth-child(2), .svelteSvg path:nth-child(2) {
+	fill: var(--main-font-color);
+}
