@@ -41,7 +41,7 @@
     .round {
         height: 20px;
         width: 20px;
-        border: 4px solid #fff;
+        border: 4px solid var(--main-font-color);
         border-radius: 35px;
         margin: auto 10px;
         flex-shrink: 0;
@@ -63,9 +63,9 @@
     .bar {
         height: 100%;
         width: 1px;
-        border: 3px solid #fff;
+        border: 3px solid var(--main-font-color) ;
         border-radius: 35px;
-        background-color: #fff;
+        background-color: var(--main-font-color);
         margin: 0 auto;
         align-self: stretch;
     }

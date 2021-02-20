@@ -55,17 +55,16 @@ import { DataLanguages } from "../../stores/languages";
         stroke: var(--main-font-color);
         stroke-linecap:round;
         stroke-linejoin:round;
-        fill: aqua;
         max-width: 100%;
 
-        -webkit-filter: drop-shadow(0px 0px 10px  rgba(240,240,240,0.30)); 
-        filter: drop-shadow(0px 0px 10px  rgba(240,240,240,0.30));
+        -webkit-filter: drop-shadow(0px 0px 10px var(--shadow-contact-svg-use)); 
+        filter: drop-shadow(0px 0px 10px  var(--shadow-contact-svg-use));
        
     }
     a:active svg {
         -webkit-filter: grayscale(100%); 
         filter: grayscale(100%);
-        stroke: rgba(245, 245, 245,0.38);
+        stroke: var(--stroke-active-contact-svg-use);
     }
 
     path {
@@ -76,10 +75,10 @@ import { DataLanguages } from "../../stores/languages";
     }
 
     a:active path {
-        stroke: rgba(245, 245, 245, 1);
-        fill: rgba(245, 245, 245, 1);
+        stroke: var(--stroke-active-contact-path-use);
+        fill: var(--stroke-active-contact-path-use);
     }
     a:active p {
-        color: #000;
+        color: var(--main-bg-color);
     }
 </style>

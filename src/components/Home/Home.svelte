@@ -39,6 +39,7 @@ import Me from "./Me.svelte";
         font-size: 9vmin;
         margin-bottom: 15px;
         text-align: center;
+        font-family: 'Bitter', serif;
     }
     .subTitle {
         font-size: 5vmin;

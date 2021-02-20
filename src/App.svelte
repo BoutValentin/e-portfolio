@@ -16,4 +16,5 @@ import Skills from "./components/skills/Skills.svelte";
 </main>
 
 <style>
+
 </style>

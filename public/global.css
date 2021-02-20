@@ -4,9 +4,24 @@
 	--main-accent-color-1: #cc2936;
 	--main-accent-color-2: #656839;
 	--main-accent-color-3: #678d58;
+	--shadow-skills-dark-theme: rgba(230, 230, 230, 0.30);
+	--shadow-skills-light-theme: rgba(25, 25, 25, 0.3);
+	--shadow-skills-use: var(--shadow-skills-dark-theme);
+
+	--stroke-active-contact-path-dark-theme:  rgba(245, 245, 245, 1);
+	--stroke-active-contact-svg-dark-theme: rgba(245, 245, 245,0.38);
+	--shadow-contact-svg-dark-theme: rgba(240,240,240,0.30);
+	--stroke-active-contact-path-light-theme: rgb(10, 10, 10);
+	--stroke-active-contact-svg-light-theme:  rgba(10, 10, 10, 0.38);
+	--shadow-contact-svg-light-theme: rgba(36, 36, 36, 0.3);
+	--stroke-active-contact-path-use: var(--stroke-active-contact-path-dark-theme);
+	--stroke-active-contact-svg-use: var(--stroke-active-contact-svg-dark-theme);
+	--shadow-contact-svg-use: var(--shadow-contact-svg-dark-theme) ;
 }
 * {
 	box-sizing: border-box;
+	transition: all 0.5s ease;
+
 }
 html, body {
 	position: relative;
@@ -23,8 +38,8 @@ body {
 	max-width: 1600px;
 	width: 100%;
 	margin: 0 auto;
-	color: #fff;
-	background-color: #131319;
+	color: var(--main-font-color);
+	background-color: var(--main-bg-color);
 	box-sizing: border-box;
 	font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
@@ -86,4 +101,7 @@ section {
 }
 .jsSvg path:nth-child(2), .svelteSvg path:nth-child(2) {
 	fill: var(--main-font-color);
+}
+p {
+	font-weight: 500;
 }

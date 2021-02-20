@@ -86,16 +86,19 @@ M533.364064 1031.505065 C531.002614 1034.153991 528.628468 1034.058044 527.10686
 
 <style>
         svg {
-        filter: invert(100%);
-        max-width: 537px;
+/*         filter: invert(100%);
+ */        max-width: 537px;
         width: 50%;
         height: 100%;
+    }
+    path {
+        fill: var(--main-font-color);
     }
     @media (max-width: 800px) {
 
         svg {
-        filter: invert(100%);
-        max-width: 400px;
+/*         filter: invert(100%);
+ */        max-width: 400px;
         width: 100%;
         height: auto;
         }

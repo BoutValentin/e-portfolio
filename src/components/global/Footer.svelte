@@ -1,6 +1,7 @@
 <script>
     import { DataLanguages, avaiblesLanguages, currentLanguages } from "../../stores/languages";
 import { firstLetterUppercase } from "../../utils/uppercase";
+import Theme from "../Theme/Theme.svelte";
 
     function changeLanguages(lang) {
         currentLanguages.set(lang);
@@ -22,6 +23,7 @@ import { firstLetterUppercase } from "../../utils/uppercase";
             <img src="/images/iuristus.png" alt="iuristus logo" />
             <p>Iuristus 0</p>
         </a>
+        <Theme/>
     </div>
 </div>
 
@@ -37,6 +39,7 @@ import { firstLetterUppercase } from "../../utils/uppercase";
         border-top: 2px solid var(--main-font-color);
         flex-wrap: wrap;
     }
+
     .row1 {
         margin-top: 15px;
         margin-bottom: 10px;
@@ -46,6 +49,7 @@ import { firstLetterUppercase } from "../../utils/uppercase";
         justify-content: space-between;
         width: 100%;
     }
+
     .footer p {
         margin: auto 10px;
         padding: 0;
@@ -59,24 +63,29 @@ import { firstLetterUppercase } from "../../utils/uppercase";
         align-self: right;
         margin: auto 10px;
     }
+
     .avaiableLanguagesContainer p {
         margin: auto 5px
     }
+
     .langues {
         cursor: pointer;
         margin: auto 10px
     }
+
     .active {
         text-decoration: underline;
     }
 
     .licence {
+        width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         margin: 5px 0px 15px;
     }
+
     .licence a {
         color: var(--main-accent-color-3);
         display: flex;
@@ -86,15 +95,18 @@ import { firstLetterUppercase } from "../../utils/uppercase";
         margin: auto 10px auto 0;
         align-self: flex-end;
     }
+
     .licence p {
         margin: auto 0;
         padding: 0;
     }
+
     .licence img {
         height: 25px;
         width: 25px;
         margin: auto 10px
     }
+
     @media (max-width: 530px) {
         .row1 {
             flex-direction: column;
@@ -108,11 +120,15 @@ import { firstLetterUppercase } from "../../utils/uppercase";
         }
         .licence {
             min-width: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             margin: auto;
             margin-bottom: 20px;
         }   
         .licence a {
             align-self: center;
+            margin: 5px 5px 15px 5px; 
         }
     }
 </style>

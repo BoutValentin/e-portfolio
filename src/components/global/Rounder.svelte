@@ -68,9 +68,9 @@
         height: 1px;
         width: 100%;
         min-width: 12px;
-        border: 2px solid #fff;
+        border: 2px solid var(--main-font-color);
         border-radius: 35px;
-        background-color: #fff;
+        background-color: var(--main-font-color);
     }
     .bar_left {
         align-self: flex-end;
@@ -82,7 +82,7 @@
     .round {
         height: 20px;
         width: 20px;
-        border: 4px solid #fff;
+        border: 4px solid var(--main-font-color);
         border-radius: 35px;
         margin: auto 10px;
         flex-shrink: 0;
