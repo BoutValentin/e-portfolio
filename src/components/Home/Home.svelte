@@ -1,10 +1,26 @@
 <script>
 import ContactButton from "../../components/contact/ContactButton.svelte";
 import { DataLanguages } from "../../stores/languages";
+import Theme from "../Theme/Theme.svelte";
 import Me from "./Me.svelte";
-
+const clientHeight = window.screen.height * (6/100);
+let lasPosNow = window.scrollY
+let showTheme = lasPosNow===0;
+function scrollEvent(e){
+    const windowS = window.scrollY;
+    if (windowS > lasPosNow) showTheme = false;
+    else if (lasPosNow - windowS > clientHeight || windowS <=0 ) {
+        showTheme = true;
+    }
+    lasPosNow = windowS;
+}
+window.addEventListener('scroll', scrollEvent)
 </script>
-
+{#if showTheme}
+<div class='themecontainer'>
+    <Theme />
+</div>
+{/if}
 <section id="home">
     <Me />
     <div class="container">
@@ -16,6 +32,18 @@ import Me from "./Me.svelte";
 </section>
 
 <style>
+    .themecontainer {
+        z-index: 100;
+        position: fixed;
+        right: 15px;
+        top: 15px;
+        transition: all 0.3s ease;
+        opacity: 0.3;
+    }
+    .themecontainer:hover {
+        opacity: 1;
+    }
+
     section {
         margin-top: 0px;
         min-height: 100vh;

@@ -1,23 +1,24 @@
 <script>
+import { dark } from "../../stores/theme";
+
 import Moon from "./Moon.svelte";
 import Sun from "./Sun.svelte";
 
 
-let left = true 
 function handleClick() {
     const root = document.documentElement;
     const computedStyle = window.getComputedStyle(root);
     const mainFontColor =  computedStyle.getPropertyValue('--main-font-color');
     const mainBgColor =  computedStyle.getPropertyValue('--main-bg-color');
-    const shadowSkillUse = computedStyle.getPropertyValue(`--shadow-skills-${left? "light":"dark"}-theme`);
-    const strokeActiveContactPathUse = computedStyle.getPropertyValue(`--stroke-active-contact-path-${left? "light":"dark"}-theme`);
-    const strokeActiveContactSVGUse = computedStyle.getPropertyValue(`--stroke-active-contact-svg-${left? "light":"dark"}-theme`);
-    const shadowContactSVGUse = computedStyle.getPropertyValue(`--shadow-contact-svg-${left? "light":"dark"}-theme`);
-    left =  !left
+    const shadowSkillUse = computedStyle.getPropertyValue(`--shadow-skills-${$dark? "light":"dark"}-theme`);
+    const strokeActiveContactPathUse = computedStyle.getPropertyValue(`--stroke-active-contact-path-${$dark? "light":"dark"}-theme`);
+    const strokeActiveContactSVGUse = computedStyle.getPropertyValue(`--stroke-active-contact-svg-${$dark? "light":"dark"}-theme`);
+    const shadowContactSVGUse = computedStyle.getPropertyValue(`--shadow-contact-svg-${$dark? "light":"dark"}-theme`);
+    dark.set(!$dark);
     root.style.setProperty('--main-font-color', mainBgColor);
     root.style.setProperty('--main-bg-color', mainFontColor);
     root.style.setProperty('--shadow-skills-use', shadowSkillUse);
-    root.style.setProperty('--stoke-active-contact-path-use', strokeActiveContactPathUse);
+    root.style.setProperty('--stroke-active-contact-path-use', strokeActiveContactPathUse);
     root.style.setProperty('--stroke-active-contact-svg-use', strokeActiveContactSVGUse);
     root.style.setProperty('--shadow-contact-svg-use', shadowContactSVGUse);
 }
@@ -25,8 +26,8 @@ function handleClick() {
 
 <div class="container">
     <div class="background-bar">
-        <div class={`round ${left ? 'left' : 'right'}`} on:click={handleClick}>
-            {#if left }
+        <div class={`round ${$dark ? 'left' : 'right'}`} on:click={handleClick}>
+            {#if $dark }
                 <Moon />
             {:else}
                 <Sun />
