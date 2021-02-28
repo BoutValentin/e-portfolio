@@ -1,25 +1,26 @@
 <script>
-import ContactButton from "../../components/contact/ContactButton.svelte";
-import { DataLanguages } from "../../stores/languages";
-import Theme from "../Theme/Theme.svelte";
-import Me from "./Me.svelte";
-const clientHeight = window.screen.height * (6/100);
-let lasPosNow = window.scrollY
-let showTheme = lasPosNow===0;
-function scrollEvent(e){
-    const windowS = window.scrollY;
-    if (windowS > lasPosNow) showTheme = false;
-    else if (lasPosNow - windowS > clientHeight || windowS <=0 ) {
-        showTheme = true;
+    import ContactButton from "../../components/contact/ContactButton.svelte";
+    import { DataLanguages } from "../../stores/languages";
+    import Theme from "../Theme/Theme.svelte";
+    import Me from "./Me.svelte";
+    const clientHeight = window.screen.height * (6/100);
+    let lasPosNow = window.scrollY
+    let showTheme = lasPosNow===0;
+    function scrollEvent(e){
+        const windowS = window.scrollY;
+        if (windowS > lasPosNow) showTheme = false;
+        else if (lasPosNow - windowS > clientHeight || windowS <=0 ) {
+            showTheme = true;
+        }
+        lasPosNow = windowS;
     }
-    lasPosNow = windowS;
-}
-window.addEventListener('scroll', scrollEvent)
+    window.addEventListener('scroll', scrollEvent)
 </script>
+
 {#if showTheme}
-<div class='themecontainer'>
-    <Theme />
-</div>
+    <div class='themecontainer'>
+        <Theme />
+    </div>
 {/if}
 <section id="home">
     <Me />
@@ -28,10 +29,10 @@ window.addEventListener('scroll', scrollEvent)
         <p class="subTitle">{$DataLanguages['home']['subTitle']}</p>
         <ContactButton href={"#contact"} />
     </div>
-
 </section>
 
 <style>
+
     .themecontainer {
         z-index: 100;
         position: fixed;
@@ -40,6 +41,7 @@ window.addEventListener('scroll', scrollEvent)
         transition: all 0.3s ease;
         opacity: 0.3;
     }
+
     .themecontainer:hover {
         opacity: 1;
     }
@@ -63,18 +65,22 @@ window.addEventListener('scroll', scrollEvent)
         margin: auto;
         padding: 15px;
     }
+
     .mainTitle {
         font-size: 9vmin;
         margin-bottom: 15px;
         text-align: center;
         font-family: 'Bitter', serif;
     }
+
     .subTitle {
         font-size: 5vmin;
         margin-top: 5px;
         text-align: center;
     }
+
     @media (max-width: 800px) {
+
         section {
             min-height: 100vh;
             display: flex;
@@ -82,14 +88,16 @@ window.addEventListener('scroll', scrollEvent)
             align-items: center;
             justify-content: stretch;
         }
+
         .container {
             max-width: 100%;
             height: auto;
-/*             margin-top: 15px;
- */        }
+        }
+
         .mainTitle{
             margin-bottom: 5px;
             margin-top: 5px;
         }
     }
+
 </style>

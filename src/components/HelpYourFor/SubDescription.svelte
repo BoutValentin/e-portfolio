@@ -6,10 +6,10 @@
 <div class="sub-description">
     <svelte:component this={svgComponents.Component} {...svgComponents.props} />
     <div>
-    <p>
-        {@html paragraphe}
-    </p>
-</div>
+        <p>
+            {@html paragraphe}
+        </p>
+    </div>
 </div>
 
 <style>
@@ -22,6 +22,7 @@
         height: 100%;
         padding: 15px;
     }
+
     .sub-description > div {
         width: 100%;
         margin: 0 35px;
@@ -35,6 +36,7 @@
         justify-content: center;
         line-height: 1.6;
     }
+
     .sub-description > div > p {
         padding: 0;
         margin: 0;
@@ -59,4 +61,5 @@
             text-align: justify;
         }
     }
+    
 </style>

@@ -57,6 +57,7 @@
     .order_right {
         flex-direction: row;
     }
+    
     .bar_container {
         height: 100%;
         width: 100%;
@@ -64,6 +65,7 @@
         display: flex;
         flex-direction: column;
     }
+
     .bar {
         height: 1px;
         width: 100%;
@@ -75,6 +77,7 @@
     .bar_left {
         align-self: flex-end;
     }
+
     .bar_right {
         align-self: flex-start;
     }
@@ -87,4 +90,5 @@
         margin: auto 10px;
         flex-shrink: 0;
     }
+
 </style>

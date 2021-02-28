@@ -53,6 +53,7 @@ $: {
 </section>
 
 <style>
+
     section {
         display: flex;
         flex-direction: column;
@@ -86,15 +87,18 @@ $: {
     }
 
     @media (max-width: 800px) {
+
         .skills-container {
             max-width: 80%;
         }
     }
 
     @media (max-width: 300px) {
+
         .skills-container {
             max-width: 100%;
         }
+        
         .roundContact {
             margin: 15px 25px ;
         }

@@ -3,9 +3,11 @@
 </svg>
 
 <style>
+
     svg {
         height: 100%;
         width: 100%;
         fill: var(--main-font-color);
     }
+
 </style>

@@ -23,9 +23,6 @@
 </div>
 
 <style>
-    .showSection {
-
-    }
     .header{
         display: flex;
         flex-direction: row;
@@ -59,6 +56,7 @@
         display: flex;
         flex-direction: column;
         align-self: stretch;
+        flex-shrink: 0;
     }
     .bar {
         height: 100%;

@@ -1,8 +1,8 @@
 <script>
+
     import Rounder from "./Rounder.svelte";
     import Title from "./Title.svelte";
     export let title;
-
 </script>
 
 <div class="section_title">
@@ -28,4 +28,5 @@
         flex-shrink: 0;
         text-align: center;
     }
+    
 </style>

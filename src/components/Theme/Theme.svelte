@@ -4,7 +4,6 @@ import { dark } from "../../stores/theme";
 import Moon from "./Moon.svelte";
 import Sun from "./Sun.svelte";
 
-
 function handleClick() {
     const root = document.documentElement;
     const computedStyle = window.getComputedStyle(root);
@@ -22,6 +21,7 @@ function handleClick() {
     root.style.setProperty('--stroke-active-contact-svg-use', strokeActiveContactSVGUse);
     root.style.setProperty('--shadow-contact-svg-use', shadowContactSVGUse);
 }
+
 </script>
 
 <div class="container">
@@ -35,12 +35,15 @@ function handleClick() {
         </div>
     </div>
 </div>
+
 <style>
+
     .container {
         margin: auto 20px;
         height:  22px;
         width: 40px;
     }
+
     .background-bar {
         position: relative;
         height: 100%;
@@ -48,6 +51,7 @@ function handleClick() {
         background-color: var(--main-font-color);
         border-radius: 25px;
     }
+
     .round {
         cursor: pointer;
         position: absolute;
@@ -63,19 +67,24 @@ function handleClick() {
         align-items: center;
         justify-content: center;
     }
+
     .left {
         top:0px;
         left: 0px;
         transform: translate(-50%, -10%);
     }
+
     .right {
         top:0px;
         right: 0px;
         transform: translate(50%, -10%);
     }
+
     @media (max-width: 530px) {
+
         .container {
             margin: 5px 5px 5px 5px; 
         }
     }
+
 </style>

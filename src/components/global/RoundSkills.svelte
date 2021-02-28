@@ -1,13 +1,12 @@
 <script>
-
     export let svg;
     export let path;
 </script>
 
 <a href={path} rel="external nofollow" target="_blank" >
-<div class="skillsRound">
-    {@html svg}
-</div>
+    <div class="skillsRound">
+        {@html svg}
+    </div>
 </a>
 
 <style>
@@ -26,8 +25,10 @@
         align-items: center;
         justify-content: center;
     }
+
     a:active .skillsRound {
         -webkit-box-shadow: none; 
         box-shadow: none;
     }
+
 </style>

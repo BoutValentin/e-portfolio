@@ -108,3 +108,7 @@ section {
 p {
 	font-weight: 500;
 }
+
+ul li {
+	margin: 10px auto;
+}

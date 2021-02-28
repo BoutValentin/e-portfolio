@@ -15,7 +15,7 @@
 </script>
 
 <h1 in:appear="{{duration: duration, delay: delay}}" out:appear="{{duration:duration, delay:0}}">
-{title.toUpperCase()}
+    {title.toUpperCase()}
 </h1>
 
 <style>
