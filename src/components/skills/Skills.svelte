@@ -63,7 +63,7 @@ $: {
     }
 
     p {
-        font-size: 19px;
+        font-size: min(1.3em, max(4vmin, 16px));
         letter-spacing: 2.5px;
         margin: 55px 10px 15px 10px;
         text-align: center;

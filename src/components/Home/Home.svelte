@@ -3,7 +3,7 @@
     import { DataLanguages } from "../../stores/languages";
     import Theme from "../Theme/Theme.svelte";
     import Me from "./Me.svelte";
-    const clientHeight = window.screen.height * (6/100);
+    const clientHeight = window.screen.height * (4/100);
     let lasPosNow = window.scrollY
     let showTheme = lasPosNow===0;
     function scrollEvent(e){

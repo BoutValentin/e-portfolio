@@ -33,14 +33,14 @@
     }
 
     .title {
-        font-size: 24px;
+       font-size: min(1.4em, max(5vmin, 24px));
         letter-spacing: 2.5px;
         margin: 15px 5px 25px;
         display: flex;
         flex-direction: row;
     }
     .text {
-        font-size: 19px;
+        font-size: min(1.3em, max(4vmin, 16px));
         letter-spacing: 2.5px;
         margin: 10px 15px;
     }

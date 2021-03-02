@@ -5,13 +5,17 @@
 	import HelpYouFor from "./components/HelpYourFor/HelpYouFor.svelte";
 	import Skills from "./components/skills/Skills.svelte";
 	import ExpDipl from "./components/ExperienceAndDiploma/ExpDipl.svelte";
+import About from "./components/About/About.svelte";
+import Project from "./components/Project/Project.svelte";
 </script>
 
 <main>
 	<Home />
 	<HelpYouFor />
 	<Skills />
+	<Project />
 	<ExpDipl />
+	<About />
 	<Contact />
 	<Footer />
 </main>

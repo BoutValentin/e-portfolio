@@ -1,14 +1,16 @@
 <script>
     import { DataLanguages, avaiblesLanguages, currentLanguages } from "../../stores/languages";
+import { isTouchScreen } from "../../stores/touchScreen";
 import { firstLetterUppercase } from "../../utils/uppercase";
 import Theme from "../Theme/Theme.svelte";
 
     function changeLanguages(lang) {
+        window.localStorage.setItem('langue', lang);
         currentLanguages.set(lang);
     }
 </script>
 
-<div class="footer">
+<footer class="footer">
     <div class="row1">
     <p>{@html $DataLanguages['footer'].mainText}</p>
     <div class="avaiableLanguagesContainer">
@@ -18,6 +20,9 @@ import Theme from "../Theme/Theme.svelte";
     {/each}
     </div>
     </div>
+    <div class="accessibility">
+        <p on:click={() => isTouchScreen.set(!$isTouchScreen)}>{`${ $isTouchScreen ? $DataLanguages['footer']['accessibilityDisabled'] : $DataLanguages['footer']['accessibilityEnabled'] } ${$DataLanguages['footer']['accessibility']}`}</p>
+    </div>
     <div class="licence">
         <a href="http://iuristus.com" rel="external nofollow" target="_blank" >
             <img src="/images/iuristus.png" alt="iuristus logo" />
@@ -25,7 +30,8 @@ import Theme from "../Theme/Theme.svelte";
         </a>
         <Theme/>
     </div>
-</div>
+    
+</footer>
 
 <style>
 
@@ -105,6 +111,17 @@ import Theme from "../Theme/Theme.svelte";
         height: 25px;
         width: 25px;
         margin: auto 10px
+    }
+
+    .accessibility {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .accessibility > p {
+        cursor: pointer;
+        text-decoration: underline;
     }
 
     @media (max-width: 530px) {
