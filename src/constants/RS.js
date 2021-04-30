@@ -1,4 +1,4 @@
-import {twitter, github, linkedin} from '../svg'
+import {twitter, github, linkedin, gitlab} from '../svg'
 export const rs = 
 [
     {
@@ -8,6 +8,10 @@ export const rs =
     {
         svg: github,
         path: "https://github.com/BoutValentin/"
+    },
+    {
+        svg: gitlab,
+        path: "https://gitlab.com/BoutValentin"
     },
     {
         svg: twitter,
