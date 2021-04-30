@@ -85,7 +85,7 @@ import Calendar from "../global/Calendar.svelte";
         border-radius: 8px;
         background-color: var(--main-font-color);
         color: var(--main-bg-color);
-        box-shadow: 0px 0px 7px 2px var(--shadow-contact-svg-use);
+        box-shadow: 0px 0px 7px 2px var(--shadow-contact-svg);
     }
 
     .project-card-default {
@@ -132,7 +132,7 @@ import Calendar from "../global/Calendar.svelte";
         padding: 3px 25px;
         border-radius: 25px;
         margin: 0 auto;
-        box-shadow: 0px 0px 7px 2px var(--shadow-contact-svg-use);
+        box-shadow: 0px 0px 7px 2px var(--shadow-contact-svg);
     }
 
     .date-container > p {

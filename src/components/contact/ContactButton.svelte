@@ -57,14 +57,14 @@ import { DataLanguages } from "../../stores/languages";
         stroke-linejoin:round;
         max-width: 100%;
 
-        -webkit-filter: drop-shadow(0px 0px 10px var(--shadow-contact-svg-use)); 
-        filter: drop-shadow(0px 0px 10px  var(--shadow-contact-svg-use));
+        -webkit-filter: drop-shadow(0px 0px 10px var(--shadow-contact-svg)); 
+        filter: drop-shadow(0px 0px 10px  var(--shadow-contact-svg));
        
     }
     a:active svg {
         -webkit-filter: grayscale(100%); 
         filter: grayscale(100%);
-        stroke: var(--stroke-active-contact-svg-use);
+        stroke: var(--stroke-active-contact-svg);
     }
 
     path {
@@ -75,8 +75,8 @@ import { DataLanguages } from "../../stores/languages";
     }
 
     a:active path {
-        stroke: var(--stroke-active-contact-path-use);
-        fill: var(--stroke-active-contact-path-use);
+        stroke: var(--stroke-active-contact-path);
+        fill: var(--stroke-active-contact-path);
     }
     a:active p {
         color: var(--main-bg-color);

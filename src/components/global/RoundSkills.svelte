@@ -18,8 +18,8 @@
         padding: 10px;
         border-radius: 60px;
         background-color: var(--main-font-color);
-        -webkit-box-shadow: 0px 0px 7px 2px var(--shadow-skills-use);
-        box-shadow: 0px 0px 7px 2px var(--shadow-skills-use);
+        -webkit-box-shadow: 0px 0px 7px 2px var(--shadow-skills);
+        box-shadow: 0px 0px 7px 2px var(--shadow-skills);
         display: flex;
         flex-direction: column;
         align-items: center;

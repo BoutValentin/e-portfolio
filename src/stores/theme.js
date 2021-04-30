@@ -1,4 +1,10 @@
-import { writable } from 'svelte/store';
+import { writable } from "svelte/store";
 
+const DEFAULT_THEME = "dark";
 
-export let dark = writable(true);
+function getTheme() {
+  if (typeof window === "undefined") return DEFAULT_THEME;
+  return window.localStorage.getItem("theme") || DEFAULT_THEME;
+}
+
+export let theme = writable(getTheme());

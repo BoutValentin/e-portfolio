@@ -5,19 +5,23 @@
 	import HelpYouFor from "./components/HelpYourFor/HelpYouFor.svelte";
 	import Skills from "./components/skills/Skills.svelte";
 	import ExpDipl from "./components/ExperienceAndDiploma/ExpDipl.svelte";
-import About from "./components/About/About.svelte";
-import Project from "./components/Project/Project.svelte";
+	import About from "./components/About/About.svelte";
+	import Project from "./components/Project/Project.svelte";
+	import { theme } from "./stores/theme";
+
 </script>
 
-<main>
-	<Home />
-	<HelpYouFor />
-	<Skills />
-	<Project />
-	<ExpDipl />
-	<About />
-	<Contact />
-	<Footer />
+<main data-theme={$theme}>
+	<div id="body">
+		<Home />
+		<HelpYouFor />
+		<Skills />
+		<Project />
+		<ExpDipl />
+		<About />
+		<Contact />
+		<Footer />
+	</div>
 </main>
 
 <style>
