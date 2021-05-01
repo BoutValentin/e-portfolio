@@ -1,4 +1,1 @@
-export const LANGUE_SUPPORT = [
-    "en",
-    "fr"
-]
+export const LANGUE_SUPPORT = ["en", "fr"];

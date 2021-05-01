@@ -1,5 +1,4 @@
-export const js =
-`<svg 
+export const js = `<svg 
 class="jsSvg skillsSvg"  
 viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 128C0 198.692 57.3076 256 128 256C198.692 256 256 198.692 256 128C256 57.3076 198.692 0 128 0C57.3076 0 0 57.3076 0 128Z" fill="#131319"/>

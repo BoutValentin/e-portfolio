@@ -1,3 +1,5 @@
-import { writable } from 'svelte/store';
+import { writable } from "svelte/store";
 
-export const isTouchScreen = writable((navigator.maxTouchPoints || 'ontouchstart' in document.documentElement));
+export const isTouchScreen = writable(
+  navigator.maxTouchPoints || "ontouchstart" in document.documentElement
+);
