@@ -1,33 +1,20 @@
 <script>
-import { dark } from "../../stores/theme";
+import { theme } from "../../stores/theme";
 
 import Moon from "./Moon.svelte";
 import Sun from "./Sun.svelte";
 
 function handleClick() {
-    const root = document.documentElement;
-    const computedStyle = window.getComputedStyle(root);
-    const mainFontColor =  computedStyle.getPropertyValue('--main-font-color');
-    const mainBgColor =  computedStyle.getPropertyValue('--main-bg-color');
-    const shadowSkillUse = computedStyle.getPropertyValue(`--shadow-skills-${$dark? "light":"dark"}-theme`);
-    const strokeActiveContactPathUse = computedStyle.getPropertyValue(`--stroke-active-contact-path-${$dark? "light":"dark"}-theme`);
-    const strokeActiveContactSVGUse = computedStyle.getPropertyValue(`--stroke-active-contact-svg-${$dark? "light":"dark"}-theme`);
-    const shadowContactSVGUse = computedStyle.getPropertyValue(`--shadow-contact-svg-${$dark? "light":"dark"}-theme`);
-    dark.set(!$dark);
-    root.style.setProperty('--main-font-color', mainBgColor);
-    root.style.setProperty('--main-bg-color', mainFontColor);
-    root.style.setProperty('--shadow-skills-use', shadowSkillUse);
-    root.style.setProperty('--stroke-active-contact-path-use', strokeActiveContactPathUse);
-    root.style.setProperty('--stroke-active-contact-svg-use', strokeActiveContactSVGUse);
-    root.style.setProperty('--shadow-contact-svg-use', shadowContactSVGUse);
+    theme.set($theme !== 'dark' ? 'dark' : 'light');
+    window.localStorage.setItem('theme', $theme);
 }
 
 </script>
 
 <div class="container">
     <div class="background-bar">
-        <div class={`round ${$dark ? 'left' : 'right'}`} on:click={handleClick}>
-            {#if $dark }
+        <div class={`round ${$theme === 'dark' ? 'left' : 'right'}`} on:click={handleClick}>
+            {#if $theme === 'dark' }
                 <Moon />
             {:else}
                 <Sun />

@@ -1,114 +1,128 @@
 :root {
-	--main-bg-color: #131319;
-	--main-font-color: #fff;
-	--main-accent-color-1: #cc2936;
-	--main-accent-color-2: #656839;
-	--main-accent-color-3: #678d58;
-	--shadow-skills-dark-theme: rgba(230, 230, 230, 0.30);
-	--shadow-skills-light-theme: rgba(25, 25, 25, 0.3);
-	--shadow-skills-use: var(--shadow-skills-dark-theme);
-
-	--stroke-active-contact-path-dark-theme:  rgba(245, 245, 245, 1);
-	--stroke-active-contact-svg-dark-theme: rgba(245, 245, 245,0.38);
-	--shadow-contact-svg-dark-theme: rgba(240,240,240,0.30);
-	--stroke-active-contact-path-light-theme: rgb(10, 10, 10);
-	--stroke-active-contact-svg-light-theme:  rgba(10, 10, 10, 0.38);
-	--shadow-contact-svg-light-theme: rgba(36, 36, 36, 0.3);
-	--stroke-active-contact-path-use: var(--stroke-active-contact-path-dark-theme);
-	--stroke-active-contact-svg-use: var(--stroke-active-contact-svg-dark-theme);
-	--shadow-contact-svg-use: var(--shadow-contact-svg-dark-theme) ;
+  --main-accent-color-1: #cc2936;
+  --main-accent-color-2: #656839;
+  --main-accent-color-3: #678d58;
 }
+
+main[data-theme='light'] {
+  --main-bg-color: #fff;
+  --main-font-color: #131319;
+  --shadow-skills: rgba(25, 25, 25, 0.3);
+  --stroke-active-contact-path: rgb(10, 10, 10);
+  --stroke-active-contact-svg: rgba(10, 10, 10, 0.38);
+  --shadow-contact-svg: rgba(36, 36, 36, 0.3);
+}
+
+main[data-theme='dark'] {
+  --main-bg-color: #131319;
+  --main-font-color: #fff;
+  --shadow-skills: rgba(230, 230, 230, 0.3);
+  --stroke-active-contact-path: rgba(245, 245, 245, 1);
+  --stroke-active-contact-svg: rgba(245, 245, 245, 0.38);
+  --shadow-contact-svg: rgba(240, 240, 240, 0.3);
+}
+
 * {
-	box-sizing: border-box;
-	transition-property: color, background-color;
-	transition-duration: 0.1s, 0.3s;
-	transition-delay: 0s;
-	transition-timing-function: ease-out;
+  box-sizing: border-box;
+  transition-property: color, background-color;
+  transition-duration: 0.1s, 0.3s;
+  transition-delay: 0s;
+  transition-timing-function: ease-out;
 }
 
-html, body {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	scroll-behavior: smooth;
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
-	box-sizing: border-box;
-	max-width: 1600px;
-	width: 100%;
-	margin: 0 auto;
-	color: var(--main-font-color);
-	background-color: var(--main-bg-color);
-	box-sizing: border-box;
-	font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+main {
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: var(--main-bg-color);
+  color: var(--main-font-color);
+}
+
+#body {
+  max-width: 1600px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
 }
 
 @media (max-width: 1000px) {
-	body {
-		max-width: 100%;
-	}
+  body {
+    max-width: 100%;
+  }
 }
 
 a {
-	color: var(--main-accent-color-1);
-	text-decoration: none;
+  color: var(--main-accent-color-1);
+  text-decoration: none;
 }
 
 a:visited {
-	color: var(--main-accent-color-1);
+  color: var(--main-accent-color-1);
 }
 
-.dockerSvg {
-
-} 
 .skillsSvg {
-	height: 100%;
-	width: 100%;
-	fill: var(--main-bg-color);
-	stroke: var(--main-bg-color);
+  height: 100%;
+  width: 100%;
+  fill: var(--main-bg-color);
+  stroke: var(--main-bg-color);
 }
-.skillsSvg path{
-	fill: var(--main-bg-color);
-	stroke: var(--main-bg-color);
-
+.skillsSvg path {
+  fill: var(--main-bg-color);
+  stroke: var(--main-bg-color);
 }
 p {
-	letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .colorized {
-	color: var(--main-accent-color-1);
+  color: var(--main-accent-color-1);
 }
 
 .bolded {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 section {
-	max-width: 100vw;
-	width: 100%;
-	margin-top: 50px;
-	margin-bottom: 35px;
+  max-width: 100vw;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 35px;
 }
 
 .i-can-h-space {
-	margin: 35px auto;
+  margin: 35px auto;
 }
 
-.jsSvg , .svelteSvg {
-	fill: var(--main-bg-color);
+.jsSvg,
+.svelteSvg {
+  fill: var(--main-bg-color);
 }
-.jsSvg path:nth-child(2), .svelteSvg path:nth-child(2) {
-	fill: var(--main-font-color);
+
+.jsSvg path:nth-child(2),
+.svelteSvg path:nth-child(2) {
+  fill: var(--main-font-color);
 }
 p {
-	font-weight: 500;
+  font-weight: 500;
 }
 
 ul li {
-	margin: 10px auto;
+  margin: 10px auto;
 }
