@@ -3,7 +3,7 @@
 Welcome to my base code of my e-portfolio build in svelte !
 
 <div style="display:flex;align-items:center;justify-content:center;">
-  <img style="max-height: 500px" alt="Icon" src="./public/images/Me.svg">
+  <iframe style="max-height: 500px" alt="Icon" src="./public/images/Me.svg"></iframe>
 </div>
 
 ## Access this website
