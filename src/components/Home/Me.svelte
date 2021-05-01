@@ -324,7 +324,7 @@
 
   @media (max-width: 800px) {
     svg {
-      max-width: 400px;
+      max-width: min(400px, 90vw);
       width: 100%;
       height: auto;
     }

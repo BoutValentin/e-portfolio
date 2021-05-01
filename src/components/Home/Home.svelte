@@ -35,7 +35,7 @@
   .themecontainer {
     z-index: 100;
     position: fixed;
-    right: 15px;
+    right: 20px;
     top: 15px;
     transition: all 0.3s ease;
     opacity: 0.3;
@@ -46,6 +46,7 @@
   }
 
   section {
+    overflow-x: visible;
     margin-top: 0px;
     min-height: 100vh;
     height: auto;
