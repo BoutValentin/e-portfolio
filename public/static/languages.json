@@ -69,6 +69,152 @@
                 }
         ]
         }, 
+        "projects": {
+            "title": "PROJECTS",
+            "text": "Sometimes, I <span class =\"colorized bolded \">help</span> or <span class =\"colorized bolded \">create</span> projects in my <span class =\"colorized bolded \">free time</span> or for professional purposes. You can see all of it below.",
+            "projects": [
+                {
+                    "title": "My Svelte e-portfolio",
+                    "date": "04-2021",
+                    "shortDescription": "My new e-portfolio build with svelte to show my projects. Brand new SVG Illustrations and UX/UI Design has been done!",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Svelte-AlertNotify",
+                    "date": "08-2020",
+                    "shortDescription": "A svelte components create in the purpose to display notifications and Alerts in a svelte website.",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Books and Writing",
+                    "date": "Soon",
+                    "shortDescription": "Books and Writing will be my personal blog and books recommendations. Which will be built with Vue JS, NodeJs and MongoDB! Stay tune!",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "BAVGame",
+                    "date": "02-2021",
+                    "shortDescription": "One of a website build in a group of three in a collegue courses. This website use the rawg API to display games and more.",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Spotular",
+                    "date": "Soon",
+                    "shortDescription": "A minimalist clone of the Spotify Web Application. The aim of this project is to discovered a older framework but still use: Angular.",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Iuristus",
+                    "date": "Soon",
+                    "shortDescription": "This projects is now in his build time. Stay tune if you want to see our way to rethink the open source stack.",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "CotCot",
+                    "date": "Soon",
+                    "shortDescription": "This projects is at his begening. Let's hope to see it raise in 2021-2022.",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                }
+            ]
+        },
         "expDipl" : {
             "title": "EXPERIENCES AND DIPLOMAS",
             "sub": [
@@ -91,10 +237,18 @@
                         "description": "This diploma is a <span class = \"colorized bolded \">two years trainings</span> recognized by the <span class = \"colorized bolded \">French state</span> which aim to give us a generic professional formation.</br></br> All the program is commun to all the country. During This two years I tried to do my best and to learn all I could in the purpose to <span class = \"colorized bolded \">achieve my goals.</span></br></br>My grades for this two years was : <ul><li><span class = \"colorized bolded \">Major</span> of the first semester in intial formation</li><li><span class = \"colorized bolded \">Major</span> of the second semester in intial formation</li><li><span class = \"colorized bolded \">Major</span> of the third semester in continuous formation</li></ul>"
                     }
             ]
-        },  
+        }, 
+        "about" : {
+            "title": "ABOUT ME",
+            "text1": "In my head, <span class = \"colorized bolded \">learning</span> and pushing itself a bit further from what we know yesterday, day after day, is for Human what he as been created for.</br></br> In my infinite list of passion I have, <span class = \"colorized bolded \">reading, writing and learning</span> are among everything one's of my favorite.</br></br> Thus new technologies are the perfect tools to keep learning every day.</br></br> I also try to open my mind on other subjects like <span class = \"colorized bolded \">video and filming and even photography.</span> Sometime take its backpack with a <span class = \"colorized bolded \">drone</span>, a <span class = \"colorized bolded \">computer</span>, a <span class = \"colorized bolded \">smartphone</span> and a <span class = \"colorized bolded \">camera</span> in it and go for a <span class = \"colorized bolded \">hiking</span> can be more revitalize than anything.",
+            "text2": "<span class = \"colorized bolded \">Create</span> is one of my favorite hobbies and my way to improve myself day after day. In software development and more generally in life, having multiple <span class = \"colorized bolded \">leisure</span> is absolutely necessary to take a break and freeing our mind.</br></br> In that way, I like playing <span class = \"colorized bolded \">guitar</span> or create some <span class = \"colorized bolded \">music</span> and <span class = \"colorized bolded \">drawing</span> everything I'm interested in, in all of art form that atract me.</br></br> <span class = \"colorized bolded \">Podcasts and videos</span> are also an attractive field where we are free to expose our ideas, feelings and knowledge. In reality, <span class = \"colorized bolded \">teaching</span> to people is one of my life-goal by ensuring an access to basic knowledge (informatics or not) to everyone.</br> To achieve my goals I started a new <span class = \"colorized bolded \">YouTube channel</span> for now and I hope could make more in future years.</br></br> In a lighter register, I really enjoy evenings with my <span class = \"colorized bolded \">friends</span> where we gather to play some <span class = \"colorized bolded \">video games</span>, online or face to face. Sometimes simple things are way better than anything."
+        },
         "footer": {
             "mainText": "Made by <a href=\"https://github.com/BoutValentin\"  rel=\"external nofollow\" target=\"_blank\" ><bold>@BoutValentin</bold></a> with <a href=\"https://svelte.dev\" rel=\"external nofollow\" target=\"_blank\" >Svelte</a>",
-            "licence": "Under"
+            "licence": "Under",
+            "accessibilityEnabled": "Enabled",
+            "accessibilityDisabled": "Disabled",
+            "accessibility": "the accessibility feature for touch screen device."
         }
     },
     "fr": {
@@ -167,6 +321,152 @@
                 }
         ]
         }, 
+        "projects": {
+            "title": "PROJECTS",
+            "text": "Parfois, je <span class=\"colorized bolded \"> help </span> ou <span class=\"colorized bolded \"> crée </span> des projets dans mes <span class=\"colorized bolded \"> temps libre </span> ou à des fins professionnelles. Vous pouvez voir tout cela ci-dessous.",
+            "projects": [
+                {
+                    "title": "Mon e-portfolio en Svelte",
+                    "date": "04-2021",
+                    "shortDescription": "Mon e-portfolio developpé avec le framework svelte. De nouvelles illustrations SVG et une nouvelle conception UX / UI design a été faites !",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Svelte-AlertNotify",
+                    "date": "08-2020",
+                    "shortDescription": "Un composant svelte crée dans le but d'afficher des notifications et des alertes dans un site Web Svelte.",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Books and Writing",
+                    "date": "Bientôt",
+                    "shortDescription": "Books and Writing sera mon blog personnel et mes recommandations de livres. Qui sera construit avec Vue JS, NodeJs et MongoDB ! Restez connecté !",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "BAVGame",
+                    "date": "02-2021",
+                    "shortDescription": "Un site Web construit dans un groupe de trois dans un cours du DUT. Ce site Web utilise l'API rawg pour afficher des jeux et bien plus.",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Spotular",
+                    "date": "Bientôt",
+                    "shortDescription": "Un clone minimaliste de l'application Web Spotify. Le but de ce projet est de découvrir un framework plus ancien mais toujours utilisé: Angular.",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Iuristus",
+                    "date": "Bientôt",
+                    "shortDescription": "Ce projet est maintenant en construction. Restez à l'écoute si vous voulez voir notre façon de repenser l'open source.",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "CotCot",
+                    "date": "Bientôt",
+                    "shortDescription": "Ce projet en est à ses débuts. Espérons le voir s'élever en 2021-2022.",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                }
+            ]
+        },
         "expDipl" : {
             "title": "EXPERIENCE ET DIPLOME",
             "sub": [
@@ -190,9 +490,17 @@
                     }
             ]
         },  
+        "about" : {
+            "title": "A PROPOS DE MOI",
+            "text1": "Dans mon esprit, <span class = \"colorized bolded \">apprendre</span> et aller un peu plus loin de ce que nous savions hier, jour après jour, est ce pour quoi l'Homme a été créé.</br></br> Dans ma liste infinie de passion que j'ai, <span class = \"colorized bolded \">la lecture, l'écriture et l'apprentissage</span> font partie de tout ce que je préfère.</br></br> Ainsi, les nouvelles technologies sont les outils parfaits pour continuer à apprendre chaque jour.</br></br> J'essaye aussi d'ouvrir mes connaissances sur d'autres sujets comme <span class = \"colorized bolded \">la vidéo et le tournage et même la photographie.</span> Parfois, prendre son sac à dos avec un <span class = \"colorized bolded \">drone</span>, un <span class = \"colorized bolded \">ordinateur</span>, un <span class = \"colorized bolded \">smartphone</span> et un <span class = \"colorized bolded \">appareil photo</span> à l'intérieur et partir en <span class = \"colorized bolded \">randonnée</span> peut être plus revitalisant que tout.",
+            "text2": "<span class = \"colorized bolded \">Créer</span> est l'un de mes passe-temps préférés et ma façon de m'améliorer jour après jour. Dans le développement logiciel et plus généralement dans la vie, avoir de multiples <span class = \"colorized bolded \">loisirs</span> est absolument nécessaire pour faire une pause et libérer notre esprit.</br></br> De cette façon, j'aime jouer de la <span class = \"colorized bolded \">guitare</span> ou créer de la <span class = \"colorized bolded \">musique</span> et <span class = \"colorized bolded \">dessiner</span> tout ce qui m'intéresse, dans toutes les formes d'art qui m'attirent.</br></br> <span class = \"colorized bolded \">Les podcasts et les vidéos</span> sont également un domaine attrayant où nous sommes libres d'exposer nos idées, nos sentiments et nos connaissances. En réalité, <span class = \"colorized bolded \">enseigner</span> aux gens est l'un de mes objectifs de vie en assurant un accès aux connaissances de base (informatique ou non) à tous.</br> Pour atteindre mes objectifs, j'ai lancé une nouvelle <span class = \"colorized bolded \">chaîne YouTube</span> pour le moment et j'espère pouvoir en faire plus dans les années à venir.</br></br> Dans un registre plus léger, j'apprécie aussi les soirées entre <span class = \"colorized bolded \">amis</span> où l'on se retrouve pour jouer à des <span class = \"colorized bolded \">jeux vidéo</span>, en ligne ou en face à face. Parfois, des choses simples valent bien mieux que tout."
+        },
         "footer": {
             "mainText": "Developpé par <a href=\"https://github.com/BoutValentin\" rel=\"external nofollow\" target=\"_blank\" ><bold>@BoutValentin</bold></a> avec <a href=\"https://svelte.dev\" rel=\"external nofollow\" target=\"_blank\" >Svelte</a>",
-            "licence": "Sous"
+            "licence": "Sous",
+            "accessibilityEnabled": "Activer",
+            "accessibilityDisabled": "Desactiver",
+            "accessibility": "les fonctions d'accessibilié pour les appareils mobiles."
         }
     }
 }

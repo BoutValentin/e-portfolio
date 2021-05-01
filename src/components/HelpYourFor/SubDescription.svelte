@@ -40,7 +40,7 @@
     .sub-description > div > p {
         padding: 0;
         margin: 0;
-        font-size: 19px;
+        font-size: min(1.3em, max(4vmin, 16px));
         letter-spacing: 2.5px;
     }
 
