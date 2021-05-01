@@ -12,6 +12,7 @@
   fill="none"
   stroke-linecap="round"
   stroke-linejoin="round"
+  preserveAspectRatio="xMidYMid slice"
 >
   <path
     class="selected"
@@ -241,6 +242,7 @@
 
 <style>
   svg {
+    display: block;
     height: 100%;
     max-width: 30%;
     width: 100%;
@@ -255,7 +257,7 @@
   @media (max-width: 800px) {
     svg {
       width: 100%;
-      max-width: 500px;
+      max-width: min(500px, calc(100vw - 70px));
     }
   }
 </style>

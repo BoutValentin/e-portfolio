@@ -31,5 +31,6 @@
     padding: 5px 5px 5px 15px;
     height: 100%;
     width: 100%;
+    max-width: 100%;
   }
 </style>
