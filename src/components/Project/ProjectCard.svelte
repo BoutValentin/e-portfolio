@@ -6,6 +6,7 @@
   export let date;
   export let shortDescription;
   let showDescription = false;
+  let prevent_mouse_enter = false;
 
   const MAX_SIZE = 135;
 
@@ -26,12 +27,22 @@
   function hide_description() {
     showDescription = false;
   }
+
+  function handle_mouse_enter() {
+    if ($isTouchScreen) return;
+    show_description()
+  }
+
+  function handle_mouse_leave() {
+    hide_description()
+    console.log('nouse leave');
+  }
 </script>
 
 <div
   class="project-card-container"
-  on:mouseleave={hide_description}
-  on:mouseenter={show_description}
+  on:mouseleave={handle_mouse_leave}
+  on:mouseenter={handle_mouse_enter}
   on:click={handle_navigation}
 >
   <div class="project-card-default">
@@ -133,6 +144,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     color: var(--main-font-color);
     background-color: var(--main-bg-color);
     width: auto;
@@ -140,12 +152,18 @@
     border-radius: 25px;
     margin: 0 auto;
     box-shadow: 0px 0px 7px 2px var(--shadow-contact-svg);
+    user-select: none;
+    white-space: nowrap;
   }
 
   .date-container > p {
+    display: inline-block;
     padding: 0;
+    height: 100%;
+    width: 100%;
     font-size: min(1em, max(4vmin, 16px));
     margin: 0 0 0 10px;
+    word-break: keep-all;
   }
 
   .project-card-container__description {
@@ -183,6 +201,7 @@
     padding: 3px;
     border-radius: 25px;
     cursor: pointer;
+    user-select: none;
   }
 
   .hide-description {
