@@ -1,2 +1,2 @@
-export * from './leftArrow';
-export * from './rightArrow';
+export * from "./leftArrow";
+export * from "./rightArrow";
