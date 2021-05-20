@@ -1,0 +1,20 @@
+image: node:14.15.0
+
+workflow: 
+  rules:
+   - if: '$CI_COMMIT_BRANCH'
+
+cache: 
+  paths:
+    - node_modules/
+
+pages: 
+  stage: deploy
+  scripts:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - public
+  rules: 
+    - if: '$CI_COMMIT_BRANCH == "main"'
