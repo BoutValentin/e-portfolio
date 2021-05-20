@@ -10,7 +10,7 @@ cache:
 
 pages: 
   stage: deploy
-  scripts:
+  script:
     - npm install
     - npm run build
   artifacts:
