@@ -7,7 +7,7 @@
         },
         "home": {
             "title": "Hi! I'm <bold class=\"colorized\" >Valentin</bold>",
-            "subTitle": "A Junior Freelance Developer"
+            "subTitle": "A Freelance Developer"
         },
         "contact" : {
             "sectionTitle": "CONTACT",
@@ -259,7 +259,7 @@
         },
         "home": {
             "title": "Hé! Je suis <bold class=\"colorized\" >Valentin</bold>",
-            "subTitle": "Développeur Freelance Junior"
+            "subTitle": "Développeur Freelance"
         },
         "contact" : {
             "sectionTitle": "CONTACT",

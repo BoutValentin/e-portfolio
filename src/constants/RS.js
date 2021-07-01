@@ -14,6 +14,6 @@ export const rs = [
   },
   {
     svg: twitter,
-    path: "https://twitter.com/bout_valentin",
+    path: "https://twitter.com/valentin_bout",
   },
 ];
