@@ -137,7 +137,7 @@
     text-decoration: underline;
   }
 
-  @media (max-width: 530px) {
+  @media (max-width: 930px) {
     .row1 {
       flex-direction: column;
       align-items: center;
