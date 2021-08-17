@@ -128,3 +128,11 @@ p {
 ul li {
   margin: 10px auto;
 }
+
+.twitterSvg {
+  transform: scale(0.8);
+}
+
+.linkedinSvg {
+  transform: scale(0.9);
+}

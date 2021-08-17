@@ -1,4 +1,6 @@
 <script>
+  import { onDestroy } from "svelte";
+
   import { isTouchScreen } from "../../stores/touchScreen";
   import Calendar from "../global/Calendar.svelte";
 
@@ -30,12 +32,11 @@
 
   function handle_mouse_enter() {
     if ($isTouchScreen) return;
-    show_description()
+    show_description();
   }
 
   function handle_mouse_leave() {
-    hide_description()
-    console.log('nouse leave');
+    hide_description();
   }
 </script>
 
@@ -60,7 +61,11 @@
 
   {#if showDescription}
     <div class="project-card-description">
-      <div class="project-card-container__description" in:appear out:appear>
+      <div
+        class="project-card-container__description"
+        in:appear
+        out:appear|local
+      >
         <p>
           {`${shortDescription.substring(0, MAX_SIZE)}${
             shortDescription.length > MAX_SIZE ? "..." : ""

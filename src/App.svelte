@@ -8,10 +8,12 @@
   import About from "./components/About/About.svelte";
   import Project from "./components/Project/Project.svelte";
   import { theme } from "./stores/theme";
+  import AlertBar from "./components/Alert/AlertBar.svelte";
 </script>
 
 <main data-theme={$theme}>
   <div id="body">
+    <AlertBar />
     <Home />
     <HelpYouFor />
     <Skills />

@@ -1,6 +1,6 @@
 export const twitter = `
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" class="skillsSvg" >
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" class="skillsSvg twitterSvg" >
 <g>
 	<g>
 		<path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016

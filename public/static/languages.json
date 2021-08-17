@@ -3,7 +3,8 @@
         "common": {
             "languages": "languages",
             "contact": "Contact Me !",
-            "loading": "Loading"
+            "loading": "Loading",
+            "alert-bar": "Looking for my freelancer website ? <a href=\"https://freelance.boutvalentin.com\">Check out here !</a>"
         },
         "home": {
             "title": "Hi! I'm <bold class=\"colorized\" >Valentin</bold>",
@@ -11,7 +12,8 @@
         },
         "contact" : {
             "sectionTitle": "CONTACT",
-            "text": "You want to <span class=\"colorized bolded\" >know</span> more about me ? </br>Or even <span class=\"colorized bolded\" >hire me ?</span>"
+            "text": "You want to <span class=\"colorized bolded\" >know</span> more about me ? </br>Or even <span class=\"colorized bolded\" >hire me ?</span>",
+            "freelance": "You can also check out <a href=\"https://freelance.boutvalentin.com\" target=\"_blank\">my freelance website</a>"
         },
         "helpYouFor": {
             "title": "I can help you for",
@@ -73,6 +75,26 @@
             "title": "PROJECTS",
             "text": "Sometimes, I <span class =\"colorized bolded \">help</span> or <span class =\"colorized bolded \">create</span> projects in my <span class =\"colorized bolded \">free time</span> or for professional purposes. You can see all of it below.",
             "projects": [
+                {
+                    "title": "My freelance website in Svelte",
+                    "date": "08-2021",
+                    "shortDescription": "My freelance website developed with the sveltekit framework. All illustrations, code and design were developed by myself.",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                },
                 {
                     "title": "My Svelte e-portfolio",
                     "date": "04-2021",
@@ -255,7 +277,9 @@
         "common": {
             "languages": "langues",
             "contact": "Contactez moi !",
-            "loading": "Chargement"
+            "loading": "Chargement",
+            "alert-bar": "A la recherche de mon site destiné à mon activité de freelance ? <a href=\"https://freelance.boutvalentin.com\">Découvrez le ici !</a>"
+            
         },
         "home": {
             "title": "Hé! Je suis <bold class=\"colorized\" >Valentin</bold>",
@@ -263,7 +287,8 @@
         },
         "contact" : {
             "sectionTitle": "CONTACT",
-            "text": "Vous voulez <span class=\"colorized bolded\" >en savoir plus</span> sur moi ?</br>Ou même <span class=\"colorized bolded\" >m'embaucher ?</span>"
+            "text": "Vous voulez <span class=\"colorized bolded\" >en savoir plus</span> sur moi ?</br>Ou même <span class=\"colorized bolded\" >m'embaucher ?</span>",
+            "freelance": "Vous pouvez également consulter <a href=\"https://freelance.boutvalentin.com\" target=\"_blank\">mon site-web freelance</a>"
         },
         "helpYouFor": {
             "title": "Je peux vous aider pour",
@@ -325,6 +350,26 @@
             "title": "PROJECTS",
             "text": "Parfois, j'<span class=\"colorized bolded \"> aide </span> ou <span class=\"colorized bolded \"> crée </span> des projets dans mon <span class=\"colorized bolded \"> temps libre </span> ou à des fins professionnelles. Vous pouvez voir tout cela ci-dessous.",
             "projects": [
+                {
+                    "title": "Mon site web freelance en Svelte",
+                    "date": "08-2021",
+                    "shortDescription": "Mon site web freelance developpé avec le framework sveltekit. Toutes les illustrations, le code et le design on été dévelopé par moi-même.",
+                    "longDescription": "",
+                    "imageURL": "",
+                    "tools": [
+                        {
+                            "imageSVG": "",
+                            "link": ""
+                        }                        
+                    ],
+                    "addLink": [
+                        {
+                            "imageSVG": "",
+                            "linkDisplay": "",
+                            "link": ""
+                        }
+                    ]
+                },
                 {
                     "title": "Mon e-portfolio en Svelte",
                     "date": "04-2021",

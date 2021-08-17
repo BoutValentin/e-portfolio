@@ -10,6 +10,8 @@
   <SectionTitle title={$DataLanguages["contact"]["sectionTitle"]} />
   <p>{@html $DataLanguages["contact"]["text"]}</p>
   <ContactButton href="mailto:bout.valentin@gmail.com" />
+  <p class="last">{@html $DataLanguages['contact']['freelance']}</p>
+
   <div class="containerContact">
     {#each rs as social}
       <div class="roundContact">
@@ -37,18 +39,25 @@
     padding: 10px;
   }
 
+  p.last {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: max(3.5vmin, 19px);
+  }
+
   .containerContact {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 90px auto 50px auto;
+    margin: 30px auto 50px auto;
   }
 
   .roundContact {
     margin: auto 35px;
   }
+
 
   @media (max-width: 300px) {
     .roundContact {
