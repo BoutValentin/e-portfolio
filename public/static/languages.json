@@ -256,7 +256,7 @@
                             "link":"https://www.iut-a.univ-lille.fr/dpt-info/",
                             "text": "IUT A Lille"
                         },
-                        "description": "This diploma is a <span class = \"colorized bolded \">two years trainings</span> recognized by the <span class = \"colorized bolded \">French state</span> which aim to give us a generic professional formation.</br></br> All the program is commun to all the country. During This two years I tried to do my best and to learn all I could in the purpose to <span class = \"colorized bolded \">achieve my goals.</span></br></br>My grades for this two years was : <ul><li><span class = \"colorized bolded \">Major</span> of the first semester in intial formation</li><li><span class = \"colorized bolded \">Major</span> of the second semester in intial formation</li><li><span class = \"colorized bolded \">Major</span> of the third semester in continuous formation</li><li><span class = \"colorized bolded \">Major</span> of the fourth semester in continuous and initial formation</li></ul>"
+                        "description": "This diploma is a <span class = \"colorized bolded \">two years trainings</span> recognized by the <span class = \"colorized bolded \">French state</span> which aim to give us a generic professional formation.</br></br> All the program is commun to all the country. During This two years I tried to do my best and to learn all I could in the purpose to <span class = \"colorized bolded \">achieve my goals.</span></br></br>I thus obtained this diploma with the following results for these two years: <ul><li><span class = \"colorized bolded \">Major</span> of the first semester in intial formation</li><li><span class = \"colorized bolded \">Major</span> of the second semester in intial formation</li><li><span class = \"colorized bolded \">Major</span> of the third semester in continuous formation</li><li><span class = \"colorized bolded \">Major</span> of the fourth semester in continuous and initial formation</li></ul>"
                     }
             ]
         }, 
@@ -296,12 +296,12 @@
                 {
                     "title": "Prototyper", 
                     "images": "/images/prototyping.svg",
-                    "description": "Mes connaissances de base en <span class=\"colorized bolded\" >UX</span> et <span class=\"colorized bolded\" >UI</span> peuvent être utiles pour vos projets. </br></br> <span class=\"colorized bolded\" >Le prototypage d'applications</span> est l'une des décisions les plus décisives pour lancer vos projets. Je peux vous aider, en réalisant un prototype ou un petit audit de votre <span class=\"colorized bolded\" >design</span> actuel pour améliorer la conception de vos applications et au final, améliorer vos <span class=\"colorized bolded\" >interactions utilisateurs.</span>"
+                    "description": "Mes connaissances de base en <span class=\"colorized bolded\" >UX</span> et <span class=\"colorized bolded\" >UI</span> peuvent être utiles pour vos projets. </br></br> <span class=\"colorized bolded\" >Le prototypage d'applications</span> est l'une des décisions les plus décisives pour lancer vos projets. Je peux vous aider, en réalisant un prototype ou un petit audit de votre <span class=\"colorized bolded\" >design</span> actuel pour améliorer la conception de vos applications et au final améliorer vos <span class=\"colorized bolded\" >interactions utilisateurs.</span>"
                 },
             "develops": {
-                    "title": "Developer",
+                    "title": "Développer",
                     "images": "/images/development.svg",
-                    "description": "Une fois le prototypage effectué, le moment du <span class=\"colorized bolded\" >développement</span> est venu. </br></br>J'essaie d'utiliser le framework ou les bibliothèques les plus récentes attachées à <span class=\"colorized bolded\" >javascript</span> (dans la partie front), et j'utilise principalement <span class=\"colorized bolded\" >Ruby on Rails</span> pour construire votre backend. </br></br>J'utilise les <span class=\"colorized bolded\" >méthodes Scrum</span> pour construire vos projets afin de vous donner un retour rapide tout au long du processus de développement. Comme je ne suis pas un scrum-master professionnel, je fais aussi la gestion du projet avec un ami freelance, afin de vous assurer le meilleur <span class=\"colorized bolded\" >suivi</span> possible."
+                    "description": "Une fois le prototypage effectué, le moment du <span class=\"colorized bolded\" >développement</span> est venu. </br></br>J'essaie d'utiliser le framework ou les bibliothèques les plus récentes attachées à <span class=\"colorized bolded\" >javascript</span> (dans la partie front) et j'utilise principalement <span class=\"colorized bolded\" >Ruby on Rails</span> pour construire votre backend. </br></br>J'utilise les <span class=\"colorized bolded\" >méthodes Scrum</span> pour construire vos projets afin de vous donner un retour rapide tout au long du processus de développement. Comme je ne suis pas un scrum-master professionnel, je fais aussi la gestion du projet avec un ami freelance, afin de vous assurer le meilleur <span class=\"colorized bolded\" >suivi</span> possible."
                 }
         },
         "skills" : {
@@ -348,7 +348,7 @@
         }, 
         "projects": {
             "title": "PROJECTS",
-            "text": "Parfois, j'<span class=\"colorized bolded \"> aide </span> ou <span class=\"colorized bolded \"> crée </span> des projets dans mon <span class=\"colorized bolded \"> temps libre </span> ou à des fins professionnelles. Vous pouvez voir tout cela ci-dessous.",
+            "text": "<span class=\"colorized bolded \">J'aide </span> ou <span class=\"colorized bolded \"> crée </span> des projets dans mon <span class=\"colorized bolded \"> temps libre </span> ou à des fins professionnelles. Vous pouvez voir tout cela ci-dessous.",
             "projects": [
                 {
                     "title": "Mon site web freelance en Svelte",
@@ -517,12 +517,12 @@
             "sub": [
                     {
                         "title": "2020-2021",
-                        "subTitle1": "Apprenti Developpeur WEB",
+                        "subTitle1": "Apprenti développeur WEB",
                         "subTitle2": {
                             "link":"https://les-tilleuls.coop/fr",
                             "text": "Les-tilleuls.coop"
                         },
-                        "description": "Durant ma <span class = \"colorized bolded \"> deuxième année d’informatique (DUT)</span>, j’ai eu l’opportunité de  faire cette année en tant que <span class = \"colorized bolded \"> apprenti </span> dans une société de services numériques. </br> </br> Au cours de celle ci, j'ai pu approfondir mes connaissances sur Javascript et certaines de ses librairies (comme ReactJS) ou ses frameworks. J'ai également appris à <span class = \"colorized bolded \"> conteneuriser </span> une application avec docker, à aider à la gestion de projet et même à apprendre des<span class = \"colorized bolded \"> choses coté BackEnd</span> avec PhP. </br> </br> C'était ma première expérience dans le domaine de travail et aussi l'année où<span class = \"colorized bolded \"> j'ai le plus appris. </span>"
+                        "description": "Durant ma <span class = \"colorized bolded \"> deuxième année d’informatique (DUT)</span>, j’ai eu l’opportunité de  faire cette année en tant qu'<span class = \"colorized bolded \">apprenti </span> dans une société de services numériques. </br> </br> Au cours de celle ci, j'ai pu approfondir mes connaissances sur Javascript et certaines de ses librairies (comme ReactJS) ou ses frameworks. J'ai également appris à <span class = \"colorized bolded \"> conteneuriser </span> une application avec docker, à aider à la gestion de projet et même à apprendre des<span class = \"colorized bolded \"> choses coté BackEnd</span> avec PhP. </br> </br> C'était ma première expérience dans le domaine de travail et aussi l'année où<span class = \"colorized bolded \"> j'ai le plus appris. </span>"
                     },
                     {
                         "title": "2019-2021",
@@ -531,7 +531,7 @@
                             "link":"https://www.iut-a.univ-lille.fr/dpt-info/",
                             "text": "IUT A Lille"
                         },
-                        "description": "Ce diplôme est une <span class = \"colorized bolded \">formation de deux ans</span> reconnue par <span class = \"colorized bolded \">l'Etat français</span> qui vise à nous donner une formation professionnelle générique. </br> </br> Tout le programme est commun pour tout le pays. Pendant ces deux années, j'ai essayé de faire de mon mieux et d'apprendre tout ce que je pouvais dans le but <span class = \"colorized bolded \">d'atteindre mes objectifs.</span> </br> </br> Mes notes pour ces deux années étaient: <ul> <li> <span class = \"colorized bolded \">Major</span> du premier semestre en formation initiale. </li> <li> <span class = \"colorized bolded \">Major</span> du deuxième semestre en formation initiale. </li> <li> <span class = \"colorized bolded \">Major</span> du troisième semestre en formation continue. </li><li> <span class = \"colorized bolded \">Major</span> du quatrième semestre en formation initiale et continue. </li> </ul>"
+                        "description": "Ce diplôme est une <span class = \"colorized bolded \">formation de deux ans</span> reconnue par <span class = \"colorized bolded \">l'Etat français</span> qui vise à nous donner une formation professionnelle générique. </br> </br> Tout le programme est commun pour tout le pays. Pendant ces deux années, j'ai essayé de faire de mon mieux et d'apprendre tout ce que je pouvais dans le but <span class = \"colorized bolded \">d'atteindre mes objectifs.</span> </br> </br>J'ai ainsi obtenu ce diplôme avec les résultats suivants pour ces deux années : <ul> <li> <span class = \"colorized bolded \">Major</span> du premier semestre en formation initiale. </li> <li> <span class = \"colorized bolded \">Major</span> du deuxième semestre en formation initiale. </li> <li> <span class = \"colorized bolded \">Major</span> du troisième semestre en formation continue. </li><li> <span class = \"colorized bolded \">Major</span> du quatrième semestre en formation initiale et continue. </li> </ul>"
                     }
             ]
         },  
