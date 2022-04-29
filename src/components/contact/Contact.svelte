@@ -10,7 +10,6 @@
   <SectionTitle title={$DataLanguages["contact"]["sectionTitle"]} />
   <p>{@html $DataLanguages["contact"]["text"]}</p>
   <ContactButton href="mailto:bout.valentin@gmail.com" />
-  <p class="last">{@html $DataLanguages['contact']['freelance']}</p>
 
   <div class="containerContact">
     {#each rs as social}
@@ -57,7 +56,6 @@
   .roundContact {
     margin: auto 35px;
   }
-
 
   @media (max-width: 300px) {
     .roundContact {

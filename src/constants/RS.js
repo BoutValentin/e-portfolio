@@ -2,7 +2,7 @@ import { twitter, github, linkedin, gitlab } from "../svg";
 export const rs = [
   {
     svg: linkedin,
-    path: "https://www.linkedin.com/in/valentin-bout-b90175198/",
+    path: "https://www.linkedin.com/in/valentin-bout",
   },
   {
     svg: github,

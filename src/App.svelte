@@ -13,7 +13,6 @@
 
 <main data-theme={$theme}>
   <div id="body">
-    <AlertBar />
     <Home />
     <HelpYouFor />
     <Skills />

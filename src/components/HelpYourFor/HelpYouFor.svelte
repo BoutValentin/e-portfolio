@@ -3,6 +3,7 @@
   import SectionTitle from "../global/SectionTitle.svelte";
   import ShowSection from "../global/ShowSection.svelte";
   import DevelopsSvg from "./DevelopsSVG.svelte";
+  import ServerSvg from "./ServerSVG.svelte";
   import PrototypeSvg from "./PrototypeSVG.svelte";
   import SubDescription from "./SubDescription.svelte";
 </script>
