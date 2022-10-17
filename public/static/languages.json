@@ -8,7 +8,7 @@
     },
     "home": {
       "title": "Hi! I'm <bold class=\"colorized\" >Valentin</bold>",
-      "subTitle": "A Developper looking for an apprentice in DevOps / Security / Network"
+      "subTitle": "A Security Engineer - DevOps - Web Dev 💻 and creator of innovative products"
     },
     "contact": {
       "sectionTitle": "CONTACT",
@@ -20,7 +20,7 @@
       "prototype": {
         "title": "Prototyping",
         "images": "/images/prototyping.svg",
-        "description": "My basic knowledge of <span class=\"colorized bolded\" >UX</span> and <span class=\"colorized bolded\" >UI</span> may can be useful for your projects. </br></br><span class=\"colorized bolded\" >Prototyping applications</span> is one of the most decisive decision to launch your projects. I can help you, by making prototype or little audit of your current prototyping to improve the <span class=\"colorized bolded\" >design</span> of your applications and at the end, improving your <span class=\"colorized bolded\" >user interactions.</span>"
+        "description": "My knowledge of <span class=\"colorized bolded\" >UX</span> and <span class=\"colorized bolded\" >UI</span> may can be useful for your projects. </br></br><span class=\"colorized bolded\" >Prototyping applications</span> is one of the most decisive decision to launch your projects. I can help you, by making prototype or little audit of your current prototyping to improve the <span class=\"colorized bolded\" >design</span> of your applications and at the end, improving your <span class=\"colorized bolded\" >user interactions.</span>"
       },
       "develops": {
         "title": "Development",
@@ -348,7 +348,7 @@
     },
     "home": {
       "title": "Hé! Je suis <bold class=\"colorized\" >Valentin</bold>",
-      "subTitle": "Un développeur en recherche d'une alternance DevOps / Sécurité / Réseau"
+      "subTitle": "Un Security Engineer - DevOps - Web Dev 💻 et créateur de contenu innovant."
     },
     "contact": {
       "sectionTitle": "CONTACT",
@@ -360,7 +360,7 @@
       "prototype": {
         "title": "Prototyper",
         "images": "/images/prototyping.svg",
-        "description": "Mes connaissances de base en <span class=\"colorized bolded\" >UX</span> et <span class=\"colorized bolded\" >UI</span> peuvent être utiles pour vos projets. </br></br> <span class=\"colorized bolded\" >Le prototypage d'applications</span> est l'une des décisions les plus décisives pour lancer vos projets. Je peux vous aider, en réalisant un prototype ou un petit audit de votre <span class=\"colorized bolded\" >design</span> actuel pour améliorer la conception de vos applications et au final améliorer vos <span class=\"colorized bolded\" >interactions utilisateurs.</span>"
+        "description": "Mes connaissances en <span class=\"colorized bolded\" >UX</span> et <span class=\"colorized bolded\" >UI</span> peuvent être utiles pour vos projets. </br></br> <span class=\"colorized bolded\" >Le prototypage d'applications</span> est l'une des décisions les plus décisives pour lancer vos projets. Je peux vous aider, en réalisant un prototype ou un petit audit de votre <span class=\"colorized bolded\" >design</span> actuel pour améliorer la conception de vos applications et au final améliorer vos <span class=\"colorized bolded\" >interactions utilisateurs.</span>"
       },
       "develops": {
         "title": "Développer / Déployer",
